@@ -13,9 +13,18 @@ def predict(Address,Size):
     prediction = model.predict(X)
     return int(prediction)
 
+def home(request):
+    params = {'add': list(map_add.keys())}
+    return render(request,'index.html',params)
+
 def index(request):
-    address = request.GET.get('address','others')
-    size = request.GET.get('size',500)
-    print(address)
-    print(size)
-    return render(request,'index.html')
+    address = str(request.GET.get('address','others'))
+    size = int(request.GET.get('size','500'))
+    try:
+      pred = predict(address,size)
+    except:
+      pred = "Please make sure Property Size in numeric and above 500!!!"
+    button = request.GET.get('button',False)
+    params = {'add':list(map_add.keys()),
+              'pred':pred}
+    return render(request,'index.html',params)
