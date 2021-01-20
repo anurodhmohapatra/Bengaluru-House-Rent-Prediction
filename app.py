@@ -22,8 +22,8 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # load the model from disk
-model = pickle.load(open('model.pkl', 'rb'))
-map_add = json.load(open('map.json', 'r'))
+model = pickle.load(open('Website/HouseRentSite/model.pkl', 'rb'))
+map_add = json.load(open('Website/HouseRentSite/map.json', 'r'))
 
 def predict(Address,Size):
     X = pd.DataFrame([[Address,Size]],columns=['Address','Size(Acres)'])

@@ -126,10 +126,10 @@ and test score to 0.70 and rmse of 4693
 
 # Pickleing model
 import pickle
-with open('model.pkl', 'wb') as file1:
+with open('Website/HouseRentSite/model.pkl', 'wb') as file1:
     pickle.dump(model2, file1)
 
 # Saving map dictionary to json
 import json
-with open('map.json','w') as file2:
+with open('Website/HouseRentSite/map.json', 'w') as file2:
     json.dump(map_add,file2)
