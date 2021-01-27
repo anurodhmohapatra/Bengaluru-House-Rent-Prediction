@@ -21,8 +21,8 @@ def home(request):
 
 
 def index(request):
-    address = str(request.GET.get('address', 'others'))
-    size = int(request.GET.get('size', '500'))
+    address = str(request.POST.get('address', 'others'))
+    size = int(request.POST.get('size', '500'))
     pred = predict(address, size)
     params = {'add': list(map_add.keys()),
               'pred': f"Monthly Rent for {size} sqft in {address} is Rs {pred}"}

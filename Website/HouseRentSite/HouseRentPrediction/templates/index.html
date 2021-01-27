@@ -15,7 +15,7 @@
     <h1 class="text-center">Welcome To Bangalore House Rent Prediction Website</h1>
 </div>
 <br>
-<form action="/predict">
+<form action="/predict" method="post">{% csrf_token %}
     <div class="container">
         <h3 class="text-center">Please choose Area below. (If not found select others)</h3>
         <div class="row">
