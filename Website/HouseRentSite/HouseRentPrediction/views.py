@@ -17,7 +17,7 @@ def predict(Address, Size):
 
 def home(request):
     params = {'add': list(map_add.keys())}
-    return render(request, 'index.html', params)
+    return render(request, 'HouseRentPrediction/index.html', params)
 
 
 def index(request):
@@ -26,4 +26,4 @@ def index(request):
     pred = predict(address, size)
     params = {'add': list(map_add.keys()),
               'pred': f"Monthly Rent for {size} sqft in {address} is Rs {pred}"}
-    return render(request, 'index.html', params)
+    return render(request, 'HouseRentPrediction/index.html', params)
