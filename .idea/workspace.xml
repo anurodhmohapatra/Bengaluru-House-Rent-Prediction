@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57df2cac-f5ec-4554-85f0-201f6cb19559" name="Default Changelist" comment="Website">
+      <change afterPath="$PROJECT_DIR$/Website/HouseRentSite/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/HouseRentSite/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/HouseRentSite/HouseRentPrediction/templates/HouseRentPrediction/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/HouseRentSite/HouseRentPrediction/templates/HouseRentPrediction/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/HouseRentSite/HouseRentSite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Website/HouseRentSite/HouseRentSite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
