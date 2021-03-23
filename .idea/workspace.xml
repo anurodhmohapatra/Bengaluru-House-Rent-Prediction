@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57df2cac-f5ec-4554-85f0-201f6cb19559" name="Default Changelist" comment="Website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/HouseRentSite/HouseRentSite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Website/HouseRentSite/HouseRentSite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/HouseRentSite/HouseRentSite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Website/HouseRentSite/HouseRentSite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Jr Data Scientist - Evaluation -1" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
